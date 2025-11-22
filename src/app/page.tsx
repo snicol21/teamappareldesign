@@ -22,7 +22,7 @@ const currencies = ["CAD", "USD", "AUD", "EUR", "GBP"]
 const navigation = {
   categories: [
     {
-      name: "Women",
+      name: "Sports Teams",
       featured: [
         {
           name: "New Arrivals",
@@ -51,7 +51,7 @@ const navigation = {
       ],
     },
     {
-      name: "Men",
+      name: "Corporate",
       featured: [
         {
           name: "New Arrivals",
@@ -81,33 +81,34 @@ const navigation = {
     },
   ],
   pages: [
-    { name: "Company", href: "#" },
-    { name: "Stores", href: "#" },
+    { name: "Portfolio", href: "#" },
+    { name: "Services", href: "#" },
+    { name: "Contact", href: "#" },
   ],
 }
 const categories = [
   {
-    name: "New Arrivals",
+    name: "Sports Teams",
     href: "#",
     imageSrc: "https://tailwindcss.com/plus-assets/img/ecommerce-images/home-page-01-category-01.jpg",
   },
   {
-    name: "Productivity",
+    name: "Corporate Logos",
     href: "#",
     imageSrc: "https://tailwindcss.com/plus-assets/img/ecommerce-images/home-page-01-category-02.jpg",
   },
   {
-    name: "Workspace",
+    name: "Custom Uniforms",
     href: "#",
     imageSrc: "https://tailwindcss.com/plus-assets/img/ecommerce-images/home-page-01-category-04.jpg",
   },
   {
-    name: "Accessories",
+    name: "Promotional Items",
     href: "#",
     imageSrc: "https://tailwindcss.com/plus-assets/img/ecommerce-images/home-page-01-category-05.jpg",
   },
   {
-    name: "Sale",
+    name: "Portfolio",
     href: "#",
     imageSrc: "https://tailwindcss.com/plus-assets/img/ecommerce-images/home-page-01-category-03.jpg",
   },
@@ -330,8 +331,8 @@ export default function Example() {
                     {/* Logo (lg+) */}
                     <div className="hidden lg:flex lg:flex-1 lg:items-center">
                       <a href="#">
-                        <span className="sr-only">Your Company</span>
-                        <img alt="" src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=white" className="h-8 w-auto" />
+                        <span className="sr-only">Team Apparel & Design</span>
+                        <img alt="Team Apparel & Design" src="/logo-white.svg" className="h-8 w-auto" />
                       </a>
                     </div>
 
@@ -406,8 +407,8 @@ export default function Example() {
 
                     {/* Logo (lg-) */}
                     <a href="#" className="lg:hidden">
-                      <span className="sr-only">Your Company</span>
-                      <img alt="" src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=white" className="h-8 w-auto" />
+                      <span className="sr-only">Team Apparel & Design</span>
+                      <img alt="Team Apparel & Design" src="/logo-white.svg" className="h-8 w-auto" />
                     </a>
 
                     <div className="flex flex-1 items-center justify-end">
@@ -443,15 +444,15 @@ export default function Example() {
         </header>
 
         <div className="relative mx-auto flex max-w-3xl flex-col items-center px-6 py-32 text-center sm:py-64 lg:px-0">
-          <h1 className="text-4xl font-bold tracking-tight text-white lg:text-6xl">New arrivals are here</h1>
+          <h1 className="text-4xl font-bold tracking-tight text-white lg:text-6xl">Custom Team Apparel Design</h1>
           <p className="mt-4 text-xl text-white">
-            The new arrivals have, well, newly arrived. Check out the latest options from our summer small-batch release while they're still in stock.
+            Professional logo design and custom team apparel. From concept to completion, we create branded merchandise that represents your team&apos;s identity.
           </p>
           <a
             href="#"
             className="mt-8 inline-block rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-gray-900 hover:bg-gray-100"
           >
-            Shop New Arrivals
+            Get Started Today
           </a>
         </div>
       </div>
@@ -570,7 +571,7 @@ export default function Example() {
                   Simple productivity
                 </h2>
                 <p className="mt-3 text-xl text-white">
-                  Endless tasks, limited hours, a single piece of paper. Not really a haiku, but we're doing our best here. No kanban boards, burndown charts,
+                  Endless tasks, limited hours, a single piece of paper. Not really a haiku, but we&apos;re doing our best here. No kanban boards, burndown charts,
                   or tangled flowcharts with our Focus system. Just the undeniable urge to fill empty circles.
                 </p>
                 <a
@@ -670,7 +671,7 @@ export default function Example() {
           </div>
 
           <div className="border-t border-gray-800 py-10">
-            <p className="text-sm text-gray-400">Copyright &copy; 2021 Your Company, Inc.</p>
+            <p className="text-sm text-gray-400">Copyright &copy; 2025 Team Apparel & Design, Inc.</p>
           </div>
         </div>
       </footer>
