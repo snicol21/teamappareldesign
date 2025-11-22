@@ -2,5 +2,5 @@ node_modules
 .next
 *.ico
 *.sh
-pnpm-lock.yaml
+bun.lock
 CHANGELOG.md
